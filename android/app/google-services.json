@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48725896636",
+    "firebase_url": "https://gowithme-8caff.firebaseio.com",
+    "project_id": "gowithme-8caff",
+    "storage_bucket": "gowithme-8caff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48725896636:android:d77b39c7027bf412",
+        "android_client_info": {
+          "package_name": "com.gowithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48725896636-6ph6s63go366db31ckauscchj0fa51c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_l3lGNS79zZE_li_yBlcRDfzHWjaygeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48725896636-6ph6s63go366db31ckauscchj0fa51c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

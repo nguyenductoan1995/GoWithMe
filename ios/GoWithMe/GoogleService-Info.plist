@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>48725896636-d5j6q6608q58ijbv2dgid5rnqjivn66v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.48725896636-d5j6q6608q58ijbv2dgid5rnqjivn66v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBr7ENQDt1t5NAXdI9p5dbRiCbl_hvyAog</string>
+	<key>GCM_SENDER_ID</key>
+	<string>48725896636</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.GoWithMe</string>
+	<key>PROJECT_ID</key>
+	<string>gowithme-8caff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gowithme-8caff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:48725896636:ios:17167b1f8024cf1d</string>
+	<key>DATABASE_URL</key>
+	<string>https://gowithme-8caff.firebaseio.com</string>
+</dict>
+</plist>

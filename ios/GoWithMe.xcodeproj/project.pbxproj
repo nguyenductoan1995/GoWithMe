@@ -20,6 +20,7 @@
 		4D1E674A83F4C4FC9D0BD0D2 /* libPods-GoWithMe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E284EFA496452448919124F6 /* libPods-GoWithMe-tvOS.a */; };
 		A57F58A970056AB3F14C6799 /* libPods-GoWithMeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD036B76010A621077D99648 /* libPods-GoWithMeTests.a */; };
 		B8F2DF3A5C6D30A81773AA2B /* libPods-GoWithMe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3F8C4BFCC97400AC4AE74D /* libPods-GoWithMe-tvOSTests.a */; };
+		B9BAFF28230A7CA90038AEF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9BAFF27230A7CA90038AEF1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8BC530C694164816EFC9B030 /* Pods-GoWithMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWithMe.debug.xcconfig"; path = "Target Support Files/Pods-GoWithMe/Pods-GoWithMe.debug.xcconfig"; sourceTree = "<group>"; };
 		958ED03FD32532445C36A3FE /* Pods-GoWithMe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWithMe-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GoWithMe-tvOSTests/Pods-GoWithMe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC5A1B083A29958EEA758181 /* Pods-GoWithMe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWithMe-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GoWithMe-tvOS/Pods-GoWithMe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BAFF27230A7CA90038AEF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoWithMe/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BD036B76010A621077D99648 /* libPods-GoWithMeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoWithMeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC45326550D8D91958BBF6CB /* Pods-GoWithMe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWithMe-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GoWithMe-tvOSTests/Pods-GoWithMe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		E284EFA496452448919124F6 /* libPods-GoWithMe-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoWithMe-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* GoWithMe */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAFF27230A7CA90038AEF1 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,7 +164,6 @@
 				EB94941C5E7361EC140885D9 /* Pods-GoWithMeTests.debug.xcconfig */,
 				6D46D34B3E9CB624EB63D9B5 /* Pods-GoWithMeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +341,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B9BAFF28230A7CA90038AEF1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
