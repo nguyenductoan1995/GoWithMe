@@ -4,10 +4,16 @@ import {
   createStackNavigator,
   createAppContainer,
   createSwitchNavigator,
+  createDrawerNavigator,
 } from 'react-navigation'
-// import { StackViewStyleInterpolator } from 'react-navigation-stack'
 import Home from 'screens/Home'
 import Chat from 'screens/Chat'
+import Drawer from 'components/Drawer'
+
+import { Dimensions } from 'react-native'
+
+const { width } = Dimensions.get('window')
+
 
 export const AuthRoot = createStackNavigator(
   {
@@ -21,6 +27,26 @@ export const AuthRoot = createStackNavigator(
   },
 )
 
+const drawer = createDrawerNavigator({
+  Home: AuthRoot,
+},
+{
+  initialRouteName: 'Home',
+  contentComponent: Drawer,
+  contentOptions: {
+    activeTintColor: 'black',
+    inactiveTintColor: '#ffffff',
+
+    activeBackgroundColor: '#fedb00',
+  //  inactiveBackgroundColor: '#ffffff',
+  },
+  drawerType: 'slide',
+  overlayColor: 0,
+  hideStatusBar: true,
+  drawerWidth: width * 0.77,
+},
+)
+
 class AppRoutes extends Component {
   state = {}
 
@@ -28,10 +54,10 @@ class AppRoutes extends Component {
     const App = createAppContainer(
       createSwitchNavigator(
         {
-          Auth: AuthRoot,
+          drawer,
         },
         {
-          initialRouteName: 'Auth',
+          initialRouteName: 'drawer',
         },
       ),
     )
